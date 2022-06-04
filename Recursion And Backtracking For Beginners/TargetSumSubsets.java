@@ -25,7 +25,7 @@ public class Main {
         if(sos > tar){
             return;
         }
-        printTargetSumSubsets(arr,idx+1,set+arr[idx]+", ",sos+arr[idx],tar);
+        printTargetSumSubsets(arr,idx+1,set+arr[idx]+", ",sos+arr[idx],tar); 
         printTargetSumSubsets(arr,idx+1,set,sos,tar);
     }
 
